@@ -1,12 +1,11 @@
 # E-Bio-X
 
-Platform E-Learning Biologi berbasis web yang dibangun menggunakan Nuxt 3 di sisi frontend dan Flask di sisi backend.
+Platform E-Learning Biologi berbasis web dengan mengimplementasikan algoritma K-Means dan Decision Tree dalam menganalisa performa siswa berdasarkan hasil kuis.
 
 ---
 
 ## Fitur Utama
 
-* Tutorial interaktif untuk pengguna baru *(on progress)*
 * Sistem autentikasi multi-user (Admin, Guru, Siswa)
 * Autentikasi menggunakan JWT atau Google OAuth
 * **Fitur Guru:**
@@ -23,8 +22,8 @@ Platform E-Learning Biologi berbasis web yang dibangun menggunakan Nuxt 3 di sis
 * **Fitur Admin:**
 
   * Manajemen pengguna (Guru, Siswa)
-  * Manajemen kelas
-  * Manajemen materi
+  * Manajemen kelas (lihat dan hapus)
+  * Manajemen materi (lihat dan hapus)
 
 ---
 
@@ -207,4 +206,4 @@ Backend akan berjalan di `http://localhost:5000`
 
 #### Dibuat oleh:
 
-Baghaztra Van Ril — 2025
+Baghaztra Van Ril - 2025
