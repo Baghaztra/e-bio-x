@@ -53,11 +53,17 @@ Platform E-Learning Biologi berbasis web yang dibangun menggunakan Nuxt 3 di sis
 
 ```
 e-bio-x/
-├── frontend/        # Nuxt 3 frontend
-│   ├── components/
-│   ├── layouts/
-│   ├── pages/
+├── frontend/        # Nuxt frontend
+│   ├── app/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── layouts/
+│   │   ├── middleware/
+│   │   ├── pages/
+│   │   ├── utils/
+│   │   └── app.vue
 │   ├── public/
+│   ├── server/
 │   ├── nuxt.config.ts
 │   └── package.json
 │
@@ -67,6 +73,7 @@ e-bio-x/
 │   │   ├── config/
 │   │   ├── controllers/
 │   │   ├── database/
+│   │   ├── services/
 │   │   └── models/
 │   ├── app.py
 │   └── requirements.txt
